@@ -1,5 +1,7 @@
 # Batman TV App
 
+![Alt Text](https://media.giphy.com/media/C7RCCFdaixA3u/giphy.gif)
+
 ## Description
 
 #### A simple React & Next.js website that pulls API Batman TV shows data from TVMaze.com
