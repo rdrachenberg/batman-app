@@ -67,7 +67,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 11);
+/******/ 	return __webpack_require__(__webpack_require__.s = 12);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -81,12 +81,18 @@ module.exports = require("react");
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_head__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_head__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_link__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_next_head__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_next_head__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__next_static_style_css__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__next_static_style_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__next_static_style_css__);
+
+
 
 
 
@@ -97,64 +103,87 @@ var linkStyle = {
   var children = _ref.children,
       _ref$title = _ref.title,
       title = _ref$title === void 0 ? 'Batman App' : _ref$title;
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_head___default.a, null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("title", null, title), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
-    charSet: "utf-8"
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+  return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
+    className: "jsx-2683872646"
+  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_next_head___default.a, null, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("title", {
+    className: "jsx-2683872646"
+  }, title), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("meta", {
+    charSet: "utf-8",
+    className: "jsx-2683872646"
+  }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("meta", {
     name: "viewport",
-    content: "initial-scale=1.0, width=device-width"
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
+    content: "initial-scale=1.0, width=device-width",
+    className: "jsx-2683872646"
+  }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("link", {
     rel: "stylesheet",
     href: "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css",
     integrity: "sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO",
-    crossorigin: "anonymous"
-  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("header", null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("nav", {
-    "class": "navbar navbar-expand-lg navbar-light bg-light"
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    "class": "navbar-brand",
-    href: "#"
-  }, "Batman TV Shows App"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
-    "class": "navbar-toggler",
+    crossorigin: "anonymous",
+    className: "jsx-2683872646"
+  }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("link", {
+    rel: "stylesheet",
+    href: "_next/static/style.css",
+    className: "jsx-2683872646"
+  })), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("header", {
+    className: "jsx-2683872646"
+  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("nav", {
+    className: "jsx-2683872646" + " " + "navbar navbar-expand-sm bg-dark navbar-dark"
+  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("strong", {
+    className: "jsx-2683872646"
+  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("a", {
+    href: "/",
+    className: "jsx-2683872646" + " " + "navbar-brand"
+  }, "Batman TV Shows App")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("button", {
     type: "button",
     "data-toggle": "collapse",
     "data-target": "#navbarSupportedContent",
     "aria-controls": "navbarSupportedContent",
     "aria-expanded": "false",
-    "aria-label": "Toggle navigation"
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-    "class": "navbar-toggler-icon"
-  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    "class": "collapse navbar-collapse",
-    id: "navbarSupportedContent"
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("ul", {
-    "class": "navbar-nav mr-auto"
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
-    "class": "nav-item active"
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    "class": "nav-link",
-    href: "/"
-  }, "Home ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-    "class": "sr-only"
-  }, "(current)"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
-    "class": "nav-item"
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    "class": "nav-link",
-    href: "/about"
-  }, "About")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
-    "class": "nav-item"
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    "class": "nav-link",
-    href: "/contact"
-  }, "Contact")))))), children);
+    "aria-label": "Toggle navigation",
+    className: "jsx-2683872646" + " " + "navbar-toggler"
+  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", {
+    className: "jsx-2683872646" + " " + "navbar-toggler-icon"
+  })), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
+    id: "navbarSupportedContent",
+    className: "jsx-2683872646" + " " + "collapse navbar-collapse"
+  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("ul", {
+    className: "jsx-2683872646" + " " + "navbar-nav mr-auto"
+  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
+    className: "jsx-2683872646" + " " + "nav-item active"
+  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("a", {
+    href: "/",
+    className: "jsx-2683872646" + " " + "nav-link"
+  }, "Home ", __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", {
+    className: "jsx-2683872646" + " " + "sr-only"
+  }, "(current)"))), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
+    className: "jsx-2683872646" + " " + "nav-item"
+  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("a", {
+    href: "/about",
+    className: "jsx-2683872646" + " " + "nav-link"
+  }, "About")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
+    className: "jsx-2683872646" + " " + "nav-item"
+  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("a", {
+    href: "/contact",
+    className: "jsx-2683872646" + " " + "nav-link"
+  }, "Contact")))))), children, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
+    styleId: "2683872646",
+    css: [".bg-primary.jsx-2683872646{background-color:#1e2225;}"]
+  }));
 });
 
 /***/ }),
 /* 2 */
 /***/ (function(module, exports) {
 
+module.exports = require("styled-jsx/style");
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports) {
+
 module.exports = require("next/link");
 
 /***/ }),
-/* 3 */,
 /* 4 */
 /***/ (function(module, exports) {
 
@@ -162,6 +191,12 @@ module.exports = require("next/head");
 
 /***/ }),
 /* 5 */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+/* 6 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -185,19 +220,19 @@ var Layout = function Layout(props) {
 /* harmony default export */ __webpack_exports__["a"] = (Layout);
 
 /***/ }),
-/* 6 */,
 /* 7 */,
 /* 8 */,
 /* 9 */,
 /* 10 */,
-/* 11 */
+/* 11 */,
+/* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(12);
+module.exports = __webpack_require__(13);
 
 
 /***/ }),
-/* 12 */
+/* 13 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -205,12 +240,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Header__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_MyLayout__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_MyLayout__ = __webpack_require__(6);
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_MyLayout__["a" /* default */], null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", null, "This is the about freaking page you nerd!")));
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_MyLayout__["a" /* default */], null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h4", null, " This is a simple React and Next.js website that pulls data from TVmaze.com API "), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h5", null, " Technologies used "), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("ul", null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", null, "Node.js"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", null, " React "), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", null, "Next.js"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", null, "Express")))));
 });
 
 /***/ })

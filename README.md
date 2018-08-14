@@ -4,11 +4,14 @@
 
 ## Description
 
-#### A simple React & Next.js website that pulls API Batman TV shows data from TVMaze.com
+#### A simple React & Next.js website that pulls API Batman TV show data from TVMaze.com
 
 ## Technologies used
 
-### React
-### Node.js
-### Next.js
+* React 
+* Node.js
+* Next.js
+* Express
+* HTML5
+* CSS3
 

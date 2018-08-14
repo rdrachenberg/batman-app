@@ -4,25 +4,16 @@ import fetch from 'isomorphic-unfetch'
 
 const Index = (props) => (
     <Layout>
-    <img src="/static/batman.gif" alt="spray image" className='batman-image' />
-    <ul>
-        {props.shows.map(({show}) => (
-            <li key={show.id}>
-                <Link as={`/p/${show.id}`} href={`/post?id=${show.id}`}>
-                <a>{show.name}</a>
-                </Link>
-            </li>
-        ))}
-    </ul>
-    <style jsx>{`
-        .batman-image {
-            display: block;
-            margin-left: 0px;
-            margin-right: auto;
-            max-width: 35%;
-        }`
-    }
-    </style>
+        <img src='https://media.giphy.com/media/3oEduKb7vMq1xIV9MA/giphy.gif' alt="spray image" className='batman-image' />
+        <ul>
+            {props.shows.map(({show}) => (
+                <li key={show.id}>
+                    <Link as={`/p/${show.id}`} href={`/post?id=${show.id}`}>
+                    <a>{show.name}</a>
+                    </Link>
+                </li>
+            ))}
+        </ul>
     </Layout>
 )
 
