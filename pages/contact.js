@@ -1,24 +1,21 @@
 import Layout from "../components/MyLayout";
+import { Form, Text } from 'informed';
 
 export default () => (
   <div>
     <Layout>
-      <input placeholder='Your Name'/>
-      <p>
-        <h3>
-          <a href='mailto:ryandrachenberg@gmail.com'>Contact me!</a>
-        </h3>
-      </p>
-      <style jsx global>{`
-        body {
-          font-family: 'Benton Sans', 'Helvetica Neue';
-          margin: 2em;
-        }
-        h2 {
-          font-style: italic;
-          color: #000000;
-        }
-      `}</style>
+      <h2>Contact us!</h2>
+      <div className='contact-form'>
+        <Form id="intro-form">
+          <label htmlFor="intro-name">First name:</label>
+          <Text field="name" id="intro-name" />
+          <label htmlFor="last-name" className='last-name'>Last name:</label>
+          <Text field="name-last" id="last-name" />
+          <label htmlFor="email" className='email'>Email address:</label>
+          <Text field="email" id="email" />
+          <button type="submit" className='submit-button'>Submit</button>
+        </Form>
+      </div>
     </Layout>
   </div>
 )

@@ -81,11 +81,11 @@ module.exports = require("react");
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_link__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_next_head__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_next_head__);
@@ -149,13 +149,6 @@ var linkStyle = {
   }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("ul", {
     className: "jsx-2683872646" + " " + "navbar-nav mr-auto"
   }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
-    className: "jsx-2683872646" + " " + "nav-item active"
-  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("a", {
-    href: "/",
-    className: "jsx-2683872646" + " " + "nav-link"
-  }, "Home ", __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", {
-    className: "jsx-2683872646" + " " + "sr-only"
-  }, "(current)"))), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
     className: "jsx-2683872646" + " " + "nav-item"
   }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("a", {
     href: "/about",
@@ -175,13 +168,13 @@ var linkStyle = {
 /* 2 */
 /***/ (function(module, exports) {
 
-module.exports = require("styled-jsx/style");
+module.exports = require("next/link");
 
 /***/ }),
 /* 3 */
 /***/ (function(module, exports) {
 
-module.exports = require("next/link");
+module.exports = require("styled-jsx/style");
 
 /***/ }),
 /* 4 */
@@ -245,7 +238,23 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_MyLayout__["a" /* default */], null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h4", null, " This is a simple React and Next.js website that pulls data from TVmaze.com API "), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h5", null, " Technologies used "), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("ul", null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", null, "Node.js"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", null, " React "), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", null, "Next.js"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", null, "Express")))));
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_MyLayout__["a" /* default */], null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h4", null, " This is a simple React and Next.js website that pulls data from TVmaze.com API "), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h5", null, " Technologies used "), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: "tech-images"
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("ul", {
+    className: "tech-list"
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", null, "Node.js"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", null, " React "), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", null, "Next.js"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", null, "Express")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
+    className: "node-js",
+    src: "https://www.valuecoders.com/blog/wp-content/uploads/2018/05/featured.jpg"
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
+    className: "react-js",
+    src: "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto/gigs/4445319/original/58b332866815381e7c758143f8bc8ece0de96edd/create-reusable-react-js-components.png"
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
+    className: "next-js",
+    src: "https://cdn-images-1.medium.com/max/1600/1*CwR-D3C1x5MwD4bT0yJ4RA.png"
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
+    className: "express-js",
+    src: "https://amandeepmittal.gallerycdn.vsassets.io/extensions/amandeepmittal/expressjs/2.0.0/1509881293872/Microsoft.VisualStudio.Services.Icons.Default"
+  })))));
 });
 
 /***/ })

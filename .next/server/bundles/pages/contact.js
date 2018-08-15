@@ -81,11 +81,11 @@ module.exports = require("react");
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_link__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_next_head__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_next_head__);
@@ -149,13 +149,6 @@ var linkStyle = {
   }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("ul", {
     className: "jsx-2683872646" + " " + "navbar-nav mr-auto"
   }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
-    className: "jsx-2683872646" + " " + "nav-item active"
-  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("a", {
-    href: "/",
-    className: "jsx-2683872646" + " " + "nav-link"
-  }, "Home ", __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("span", {
-    className: "jsx-2683872646" + " " + "sr-only"
-  }, "(current)"))), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
     className: "jsx-2683872646" + " " + "nav-item"
   }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("a", {
     href: "/about",
@@ -175,13 +168,13 @@ var linkStyle = {
 /* 2 */
 /***/ (function(module, exports) {
 
-module.exports = require("styled-jsx/style");
+module.exports = require("next/link");
 
 /***/ }),
 /* 3 */
 /***/ (function(module, exports) {
 
-module.exports = require("next/link");
+module.exports = require("styled-jsx/style");
 
 /***/ }),
 /* 4 */
@@ -239,30 +232,47 @@ module.exports = __webpack_require__(15);
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_MyLayout__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_MyLayout__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_informed__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_informed___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_informed__);
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", null, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_MyLayout__["a" /* default */], null, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("input", {
-    placeholder: "Your Name",
-    className: "jsx-3671114249"
-  }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("p", {
-    className: "jsx-3671114249"
-  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("h3", {
-    className: "jsx-3671114249"
-  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("a", {
-    href: "mailto:ryandrachenberg@gmail.com",
-    className: "jsx-3671114249"
-  }, "Contact me!"))), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
-    styleId: "3671114249",
-    css: ["body{font-family:'Benton Sans','Helvetica Neue';margin:2em;}", "h2{font-style:italic;color:#000000;}"]
-  })));
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_MyLayout__["a" /* default */], null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", null, "Contact us!"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: "contact-form"
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_informed__["Form"], {
+    id: "intro-form"
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("label", {
+    htmlFor: "intro-name"
+  }, "First name:"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_informed__["Text"], {
+    field: "name",
+    id: "intro-name"
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("label", {
+    htmlFor: "last-name",
+    className: "last-name"
+  }, "Last name:"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_informed__["Text"], {
+    field: "name-last",
+    id: "last-name"
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("label", {
+    htmlFor: "email",
+    className: "email"
+  }, "Email address:"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_informed__["Text"], {
+    field: "email",
+    id: "email"
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
+    type: "submit",
+    className: "submit-button"
+  }, "Submit")))));
 });
+
+/***/ }),
+/* 16 */
+/***/ (function(module, exports) {
+
+module.exports = require("informed");
 
 /***/ })
 /******/ ]);
