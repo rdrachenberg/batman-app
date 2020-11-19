@@ -1,6 +1,6 @@
-import Layout from '../components/MyLayout.js'
-import Link from 'next/link'
-import fetch from 'isomorphic-unfetch'
+import Layout from '../components/MyLayout.js';
+import Link from 'next/link';
+import fetch from 'isomorphic-unfetch';
 
 const Index = (props) => (
     <Layout>
@@ -9,7 +9,7 @@ const Index = (props) => (
             {props.shows.map(({show}) => (
                 <li key={show.id}>
                     <Link as={`/p/${show.id}`} href={`/post?id=${show.id}`}>
-                    <a>{show.name}</a>
+                        <a>{show.name}</a>
                     </Link>
                 </li>
             ))}
